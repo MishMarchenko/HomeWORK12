@@ -10,6 +10,10 @@ public class Computers<O, V> {
         this.version = version;
     }
 
+    public O getOs() {
+        return os;
+    }
+
     public V getVersion() {
         return version;
     }

@@ -24,6 +24,8 @@ public class Main {
         macOS.setVersion(13.2);
         System.out.println(hp.getVersion());
         System.out.println(macOS.getVersion());
+        System.out.println(hp.getOs());
+        System.out.println(macOS.getOs());
         System.out.println(hp.toString());
         System.out.println(macOS.toString());
     }
