@@ -1,8 +1,8 @@
-public class Computers<String, V> {
-    private String os;
+public class Computers<O, V> {
+    private O os;
     private V version;
 
-    public void setOs(String os) {
+    public void setOs(O os) {
         this.os = os;
     }
 
