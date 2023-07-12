@@ -10,6 +10,10 @@ public class Computers<String, V> {
         this.version = version;
     }
 
+    public V getVersion() {
+        return version;
+    }
+
     @Override
     public java.lang.String toString() {
         return "Computers " +

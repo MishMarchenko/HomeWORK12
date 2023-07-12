@@ -22,6 +22,8 @@ public class Main {
         hp.setVersion(10);
         macOS.setOs("Ventura");
         macOS.setVersion(13.2);
+        System.out.println(hp.getVersion());
+        System.out.println(macOS.getVersion());
         System.out.println(hp.toString());
         System.out.println(macOS.toString());
     }
